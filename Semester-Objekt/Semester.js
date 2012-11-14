@@ -18,8 +18,8 @@ var mein_semester = {
       sws: 2,
       credits: 3,
       workload: 90,
-	  zeit: "14:00-15:30",
-	  tag: "Mittwoch"
+      zeit: "14:00-15:30",
+      tag: "Mittwoch"
     },
     {
       titel: "poetische Apparate",
