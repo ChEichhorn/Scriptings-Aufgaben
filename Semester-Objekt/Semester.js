@@ -1,6 +1,50 @@
 // ========================================
 // = Aufgabe: Semesterbelegung als Objekt =
 // ========================================
+window.Student = function(name,studiensemester) {
+  this.name = "Christoph Eichhorn"; // Schritt 1 von Aufgabe 1, vervollständige alle Funktionen
+  this.studiensemester = 3;
+  this.matrikelnummer = 901252;
+  this.studiengang = "Interface Design";
+  this.studienabschluss = "Master of Arts";
+};
+
+window.Student = function(name,studiensemester) {
+  this.name = "Simon Koch"; // Schritt 1 von Aufgabe 1, vervollständige alle Funktionen
+  this.studiensemester = 3;
+  this.matrikelnummer = 902345;
+  this.studiengang = "Medical Design";
+  this.studienabschluss = "Master of Arts";
+};
+
+window.Student = function(name,studiensemester) {
+  this.name = "Jona Rammler"; // Schritt 1 von Aufgabe 1, vervollständige alle Funktionen
+  this.studiensemester = 3;
+  this.matrikelnummer = 903452;
+  this.studiengang = "Medical Design";
+  this.studienabschluss = "Master of Arts";
+};
+
+
+
+window.Veranstaltung = function(titel,sws,credits) {
+  this.titel = "Scriptings";
+  this.sws = 2;
+  this.credits = 3;
+  this.workload = sws*45;
+  this.zeit = "14:00-15:30";
+  this.tag = "Mitwoch";
+
+  this.onchange = function(veranstaltung){};
+
+  
+  // this.set = ...
+  
+  // Bonus-Aufgabe: Kannst du die _zeit_ ebenfalls "automatisch" berechnen?
+  //                Was brauchst du dafür?
+  
+}
+
 
 var mein_semester = {
   student: {
